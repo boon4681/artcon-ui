@@ -1,1 +1,1 @@
-<button class='border border-[#000000] bg-[#FFFFFF] w-[314px] h-[58px] text-[20px] rounded-full'>Text</button>
+<button class='text-[#ffffff] bg-[#000000] w-[314px] h-[58px] text-[20px] rounded-full'>Text</button>
