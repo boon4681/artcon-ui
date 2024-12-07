@@ -7,6 +7,6 @@
 
 <div class="flex">
     <MenuButton></MenuButton>
-    <HeartButton />
+    <HeartButton class="size-8" />
     <Squarecard src="https://play-lh.googleusercontent.com/V_kmO4jSeSO4OI4T52MNktfbGn_MF10HkW39SMUJs6W6M9GnlVdQG9rIgc3bZ_KwPnU" alt=""/>
 </div>
