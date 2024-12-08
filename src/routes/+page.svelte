@@ -5,6 +5,5 @@
 
 
 <div class="flex">
-    <MenuButton></MenuButton>
-    <ButtonIcon></ButtonIcon>
 </div>
+
