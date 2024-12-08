@@ -1,7 +1,8 @@
 <script>
-    import Input from "$lib/components/artcon/input/input.svelte";
-    import MenuButton from "$lib/components/artcon/menu-button/menu-button.svelte";
+    import MenuButton from "$lib/components/artcon/menu-button/menu-button.svelte";   
+    import ButtonIcon from "$lib/components/artcon/button-icon/button-icon.svelte";
 </script>
+
 
 <div class="flex">
 </div>
