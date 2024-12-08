@@ -1,0 +1,1 @@
+<input class="border outline-none px-4 py-2 rounded-lg border-black" type="text">
