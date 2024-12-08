@@ -1,8 +1,12 @@
-<script>
-    //@ts-ignore
-    import { Share } from 'lucide-svelte';
+<script lang="ts">
+    import { type Variant, variants } from "./index.js";
+    import { cn } from "$lib/utils.js";
+
+    let className: string = "";
+    export let variant: Variant = "default";
+    export { className as class };
 </script>
 
-<div class="flex">
-    <Share  class='hover:bg-[#E9E9E9] w-[44px] h-[44px] p-2 rounded-lg cursor-pointer'/>
-</div>
+<button class={cn(variants({ variant, className }))}>
+    <slot></slot>
+</button>

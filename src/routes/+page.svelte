@@ -9,5 +9,5 @@
 </script>
 
 <div class="flex">
-    <Button variant="outline"></Button>
+    <ButtonIcon>H</ButtonIcon>
 </div>
