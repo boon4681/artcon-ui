@@ -5,5 +5,5 @@
 </script>
 
 <div class={cn("bg-white hover:bg-neutral-200 transition-all rounded p-1 text-sm px-2 cursor-pointer", className)}>
-    My Profile
+    <slot></slot>
 </div>

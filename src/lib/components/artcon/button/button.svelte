@@ -7,4 +7,4 @@
     export { className as class };
 </script>
 
-<button class={cn(variants({ variant, className }))}>Text</button>
+<button class={cn(variants({ variant, className }))}><slot></slot></button>
