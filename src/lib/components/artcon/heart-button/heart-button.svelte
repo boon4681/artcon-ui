@@ -1,5 +1,5 @@
 <script>
-    import { Heart as HeartIcon } from "lucide-svelte";
+    import HeartIcon from "lucide-svelte/icons/heart";
     let className = "";
     export { className as class };
     let isClicked = false;
@@ -10,7 +10,9 @@
 <!-- svelte-ignore a11y_no_static_element_interactions -->
 <button on:click={toggleheart} class="cursor-pointer inline-block {className}">
     <HeartIcon
-        class="w-full h-full transition-all duration-100 {isClicked ? 'text-red-500 fill-red-500' : 'fill-white text-black-400'} hover:opacity-80"
+        class="w-full h-full transition-all duration-100 {isClicked
+            ? 'text-red-500 fill-red-500'
+            : 'fill-white text-black-400'} hover:opacity-80"
         stroke="currentColor"
     />
 </button>
