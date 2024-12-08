@@ -1,6 +1,6 @@
 <script lang="ts">
-    import { cn } from "$lib/utils.js";
     import HeartIcon from "lucide-svelte/icons/heart";
+    import { cn } from "$lib/utils.js";
     let className = "";
     export { className as class };
     let isClicked = false;
