@@ -1,0 +1,1 @@
+<button class='text-[#ffffff] bg-[#000000] w-[314px] h-[58px] text-[20px] rounded-full'>Text</button>
