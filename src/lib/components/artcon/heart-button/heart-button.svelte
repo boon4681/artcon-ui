@@ -1,4 +1,5 @@
-<script>
+<script lang="ts">
+    import { cn } from "$lib/utils.js";
     import HeartIcon from "lucide-svelte/icons/heart";
     let className = "";
     export { className as class };
@@ -8,7 +9,7 @@
 
 <!-- svelte-ignore a11y_click_events_have_key_events -->
 <!-- svelte-ignore a11y_no_static_element_interactions -->
-<button on:click={toggleheart} class="cursor-pointer inline-block {className}">
+<button on:click={toggleheart} class={cn("cursor-pointer inline-block size-12", className)}>
     <HeartIcon
         class="w-full h-full transition-all duration-100 {isClicked
             ? 'text-red-500 fill-red-500'
