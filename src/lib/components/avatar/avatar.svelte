@@ -1,14 +1,12 @@
-<script>
-    export let src;
-    export let alt;
+<script lang="ts">
+    export let src: string;
+    export let alt: string;
+
+    let className: string = "size-10";
+    export { className as class };
 </script>
 
-<div class="relative inline-block  w-10 h-10 ">
+<div class="relative inline-block rounded-full overflow-hidden {className}">
     <!-- Avatar image -->
-    <img
-        {src}
-        {alt}
-        class={`rounded-full w-full h-full object-cover`}
-        on:error={() => (imageUrl = "default-avatar.png")}
-    />
+    <img {src} {alt} class={`w-full h-full object-cover`} on:error={() => (src = "default-avatar.png")} />
 </div>
